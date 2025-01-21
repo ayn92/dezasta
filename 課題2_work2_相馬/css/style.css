@@ -36,16 +36,18 @@
         border-right: none; 
         border-bottom: solid 1px;
         text-align: start;
+        padding: 10px 0;
     }
 
     .header01 {
         flex-direction: column;
-        width: 100%;
+        align-items: flex-start;
+        width: 90%;
     }
 
     .header-list {
-        width: 90%;
         flex-direction: column;
+        width: 100%;
     }
 
 }
