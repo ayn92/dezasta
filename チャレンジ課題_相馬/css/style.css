@@ -1,0 +1,29 @@
+@charset "ufc-8";
+
+.header {
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.title {
+    padding: 0 0 0 50px;
+}
+
+.menu {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    padding: 0 40px 0 40px;
+}
+
+.img main{
+    display: flex;
+    justify-content: center;
+}
+
