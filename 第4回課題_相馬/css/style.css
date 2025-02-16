@@ -223,6 +223,7 @@ a {
 
 .box > div {
     display: inline-block;
+    width: 80%;
 
 }
 
@@ -313,27 +314,28 @@ footer > div {
     
 
     .copy_1 {
-        font-size: 21px;
+        font-size: 17px;
         padding-top: 40px;
     }
 
     .copy_2 {
-        font-size: 40px;
+        font-size: 38px;
+        line-height: 1.15;
+        letter-spacing: 0.02em;
 
     }
 
     .copy_3 {
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 1.87;
         padding-bottom: 50px;
+        letter-spacing: 0.1em;
     }
 
     .sp_br {
         display: block;
     }
 
-    br {
-        display: none;
-    }
 
 
 
@@ -367,6 +369,15 @@ footer > div {
         padding: 0 30px 30px 30px;
     }
 
+    .title_1 {
+        font-size: 36px;
+        line-height: 1.25;
+    }
+
+    .text_1 {
+        line-height: 1.75;
+    }
+
 
 
 
@@ -378,6 +389,8 @@ footer > div {
         flex-direction: column;
         box-sizing: border-box;
         margin: 0 auto;
+        align-items: center;
+        padding: 0 38px 0 38px;
     }
 
     .menu_title {
@@ -386,8 +399,8 @@ footer > div {
     }
 
     .menu_box {
-        width: 100%;
-        padding: 0 0 50px 60px;
+        width: 75%;
+        padding: 0 0 50px 0;
     }
     
     .menu_img {
@@ -396,12 +409,13 @@ footer > div {
 
     .menu_sp {
         display: block;
-        width: 75%;
         border-top-right-radius: 41px; 
+        width: 100%;
     }
 
     .text_2 {
-        width: 75%;
+        font-size: 17px;
+        line-height: 1.58;
         padding-top: 35px;
     }
 
@@ -418,17 +432,24 @@ footer > div {
         width: 110px;
     }
 
+    .box {
+        padding: 30px 0 0 0;
+    }
+
     .text_content {
         display: block;
+        padding-bottom: 28px;
     }
 
     .text_3 {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        width: 400px;
         display: block;
+        line-height: unset;
     }
+
+        
 
 
 
@@ -444,8 +465,7 @@ footer > div {
 
 
     .footer_logo {
-        width: 280px;
-        padding: 50px 0 0 30px;
+        padding: 30px 0 0 30px;
     }
 
     footer > div {
@@ -453,11 +473,20 @@ footer > div {
     }
 
     .text_4 {
-        padding: 50px 10px 30px 30px;
+        padding: 30px 10px 0 30px;
     }
 
     .text_5 {
         padding: 35px;
+    }
+
+
+
+    .pagetop_btn {
+        width: 100px;
+        height: 100px;
+        right: 30px;
+        bottom: 230px;
     }
 
 
