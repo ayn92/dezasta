@@ -111,6 +111,7 @@ a {
     padding-right: 10px;
 }
 
+
 .about_text {
     width: 41%;
 }
@@ -142,6 +143,10 @@ a {
 .text_1 {
     line-height: 1.6;
     font-size: 16px;
+}
+
+.about_img_sp {
+    display: none;
 }
 
 
@@ -228,8 +233,6 @@ a {
 
 .box > div {
     display: inline-block;
-    width: 80%;
-
 }
 
 .text_content {
@@ -265,6 +268,7 @@ iframe {
 footer {
     background-color: #ffffff;
     width: 100%;
+    padding-left: 10px;
 }
 
 
@@ -387,13 +391,22 @@ footer > div {
     "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif; 
     }
 
+    .copy_1 {
+        padding-top: 25px;
+    }
+
     .copy_2 {
-        font-size: 38px;
+        font-size: 64px;
     }
 
     .copy_3 {
-        font-size: 16px;
+        font-size: 20px;
         padding-bottom: 50px;
+    }
+
+    
+    .title_1 {
+        font-size: 39px;
     }
 
 
@@ -432,6 +445,8 @@ footer > div {
     .about {
         width: 100%;
         flex-direction: column;
+        box-sizing: border-box;
+        padding: 0;
     }   
 
     .coffee_sp {
@@ -453,9 +468,14 @@ footer > div {
         padding-bottom: 15px;
     }
 
+    .about_img_sp {
+        display: block;
+    }
+
     .about_text {
-        width: 90%;
+        width: 100%;
         padding: 0 30px 30px 30px;
+        box-sizing: border-box;
     }
 
     .title_1 {
@@ -531,6 +551,7 @@ footer > div {
     }
 
     .text_3 {
+        font-size: 16px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -543,7 +564,7 @@ footer > div {
 
 
     .access_title {
-        width: 110px;
+        width: 124px;
     }
 
     iframe {
@@ -575,7 +596,7 @@ footer > div {
         width: 100px;
         height: 100px;
         right: 30px;
-        bottom: 230px;
+        bottom: 30px;
     }
 
 
