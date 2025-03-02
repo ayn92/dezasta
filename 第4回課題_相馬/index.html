@@ -8,10 +8,13 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js"></script>
+
 
 </head>
 
@@ -124,12 +127,19 @@
             </h3>
 
             <div class="gallery_img">
-                <img src="./images/pc_gallary_05-100.jpg" alt="店内の様子2">
-                <img src="./images/pc_gallary_04-100.jpg" alt="コーヒー豆">
-                <img src="./images/pc_gallary_03-100.jpg" alt="店内">
-                <img src="./images/pc_gallary_02-100.jpg" alt="CAFE看板">
-                <img src="./images/pc_gallary_01-100.jpg" alt="ラテアート">
-                <img src="./images/pc_gallary_04-100.jpg" alt="コーヒー豆">
+                <a href="./images/pc_gallary_05-100.jpg" data-lightbox="group">
+                    <img src="./images/pc_gallary_05-100.jpg" alt="店内の様子2"></a>
+                <a href="./images/pc_gallary_04-100.jpg" data-lightbox="group">
+                    <img src="./images/pc_gallary_04-100.jpg" alt="コーヒー豆"></a>
+                <a href="./images/pc_gallary_03-100.jpg" data-lightbox="group">
+                    <img src="./images/pc_gallary_03-100.jpg" alt="店内"></a>
+                <a href="./images/pc_gallary_02-100.jpg" data-lightbox="group">
+                    <img src="./images/pc_gallary_02-100.jpg" alt="CAFE看板"></a>
+                <a href="./images/pc_gallary_01-100.jpg" data-lightbox="group">
+                    <img src="./images/pc_gallary_01-100.jpg" alt="ラテアート"></a>
+                <a href="./images/pc_gallary_04-100.jpg" data-lightbox="group">
+                    <img src="./images/pc_gallary_04-100.jpg" alt="コーヒー豆">
+                </a>
             </div>
         </section>
 
@@ -215,6 +225,19 @@
                     }
                 }]
             });
+
+            ligthbox.option({
+                'alwaysShowNavOnTouchDevices': false,
+                'disableScrolling': false,
+                'fadeDuration': 600,
+                'fitImagesInViewport': true,
+                'imageFadeDuration': 600,
+                'maxWidth': 900,
+                'maxHeight': 900,
+                'positionFromTop': 50,
+                'resizeDuration': 700,
+                'showImageNumberLabel': false,
+            })
         })
     </script>
 </body>

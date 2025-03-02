@@ -205,10 +205,6 @@ a {
     justify-content: center;
 }
 
-.gallery_img img {
-    width: 20%;
-}
-
 .slick-prev {
     left: 20%;
     z-index: 100;
