@@ -346,6 +346,16 @@ footer > div {
     margin: 0;
 }
 
+.lb-number {
+    display: none !important;
+}
+
+.gallery_img img {
+    width: 100%;
+}
+
+
+
 
 
 
